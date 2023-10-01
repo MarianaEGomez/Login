@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Establece la altura del cuerpo para ocupar toda la pantalla vertical */
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h1 {
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex-grow: 1; /* Hace que el elemento content crezca para llenar el espacio disponible */
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo del contenido */
+    overflow-y: auto; /* Agrega scroll si el contenido es más largo que la pantalla */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Otros estilos según tus preferencias */
